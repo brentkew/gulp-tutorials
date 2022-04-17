@@ -1,0 +1,31 @@
+@import "reset";
+@import "variables";
+
+$myFont: Helvetica, sans-serif;
+$containerWidth: 300px;
+$bodyFontSize: 12px;
+
+body {
+  font-family: $myFont;
+  font-size: $bodyFontSize;
+  background-color: $themeColor;
+}
+header {
+  background-color: $mainColor;
+  border-bottom: $borderColor;
+}
+footer {
+  background-color: $secondaryColor;
+}
+$variable1: 1;
+$variable2: 1;
+.heading {
+  color: red;
+  h2 {
+    font-size: 32px;
+    color: if($variable1 + $variable2 == 2, green, red);
+  }
+  span {
+    padding: 30px;
+  }
+}

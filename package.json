@@ -1,0 +1,30 @@
+{
+  "name": "gulp-tutorials",
+  "version": "1.0.0",
+  "description": "- [Introduction](#introduction)   - [Why to Use Gulp](#why-to-use-gulp) - [Build System](#build-system)   - [Package Managers](#package-managers)   - [Preprocessors](#preprocessors)   - [Task Runners](#task-runners) - [How to Use](#how-to-use)   - [Declaring required dependencies](#declaring-required-dependencies)   - [Create Task](#create-task)   - [Running the Task](#running-the-task)   - [Watch the Task](#watch-the-task)",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp-sass": "^5.1.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-uglifycss": "^1.1.0",
+    "sass": "^1.50.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brentkew/gulp-tutorials.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brentkew/gulp-tutorials/issues"
+  },
+  "homepage": "https://github.com/brentkew/gulp-tutorials#readme"
+}
